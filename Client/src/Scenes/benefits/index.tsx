@@ -1,6 +1,6 @@
-import ActionButton from "@/shared/ActionButton";
-import HText from "@/shared/HText";
-import { BenefitType, SelectedPage } from "@/shared/types";
+import ActionButton from "../../shared/ActionButton";
+import HText from "../../shared/HText";
+import { BenefitType, SelectedPage } from "../../shared/types";
 import {
   HomeModernIcon,
   UserGroupIcon,
@@ -93,7 +93,7 @@ const Benefits = ({ setSelectedPage }: Props) => {
           <img
             className="mx-auto"
             alt="benefits-page-graphic"
-            src={BenefitsPageGraphic}
+            src="/BenefitsPageGraphic.png"
           />
 
           {/* DESCRIPTION */}
